@@ -1,0 +1,122 @@
+<svg width="1200" height="520" viewBox="0 0 1200 520" fill="none" xmlns="http://www.w3.org/2000/svg">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="520" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#05070B"/>
+    <stop offset="0.5" stop-color="#090D16"/>
+    <stop offset="1" stop-color="#05070B"/>
+  </linearGradient>
+  <linearGradient id="cyan" x1="160" y1="0" x2="900" y2="520" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#22D3EE"/>
+    <stop offset="1" stop-color="#67E8F9"/>
+  </linearGradient>
+  <linearGradient id="purple" x1="900" y1="0" x2="300" y2="520" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#A78BFA"/>
+    <stop offset="1" stop-color="#7C3AED"/>
+  </linearGradient>
+  <linearGradient id="green" x1="300" y1="0" x2="900" y2="520" gradientUnits="userSpaceOnUse">
+    <stop stop-color="#34D399"/>
+    <stop offset="1" stop-color="#10B981"/>
+  </linearGradient>
+  <filter id="glowCyan" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="7" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <filter id="glowPurple" x="-100%" y="-100%" width="300%" height="300%">
+    <feGaussianBlur stdDeviation="6" result="b"/>
+    <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse">
+    <path d="M36 0H0V36" stroke="#1F2937" stroke-opacity=".35"/>
+  </pattern>
+  <style>
+    .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace; }
+    .sans { font-family: Inter, ui-sans-serif, system-ui, -apple-system, Segoe UI, sans-serif; }
+  </style>
+</defs>
+
+<rect width="1200" height="520" rx="24" fill="url(#bg)"/>
+<rect x="1" y="1" width="1198" height="518" rx="23" stroke="#243244"/>
+<rect x="24" y="24" width="1152" height="472" rx="18" fill="url(#grid)" opacity=".7"/>
+
+<!-- Header -->
+<text x="48" y="56" class="mono" font-size="14" fill="#34D399">&gt; HIMANSHU_ANALYTICS_ENGINE v1.0</text>
+<text x="48" y="80" class="mono" font-size="12" fill="#64748B">&gt; pipeline.status = <tspan fill="#34D399">ONLINE</tspan></text>
+<text x="940" y="56" class="mono" font-size="12" fill="#64748B">SYSTEM / HAE-001</text>
+<circle cx="1138" cy="52" r="6" fill="#34D399" filter="url(#glowCyan)"/>
+
+<!-- Left title -->
+<text x="74" y="148" class="sans" font-size="39" font-weight="800" letter-spacing="2" fill="white">HIMANSHU</text>
+<text x="74" y="192" class="sans" font-size="39" font-weight="800" letter-spacing="2" fill="url(#cyan)">PATIL</text>
+<text x="76" y="225" class="mono" font-size="13" letter-spacing="1.4" fill="#A78BFA">DATA ANALYST  •  BUSINESS INTELLIGENCE</text>
+
+<text x="76" y="268" class="sans" font-size="15" fill="#CBD5E1">RAW DATA</text>
+<text x="167" y="268" class="sans" font-size="15" fill="#64748B">→</text>
+<text x="190" y="268" class="sans" font-size="15" fill="#22D3EE">ANALYSIS</text>
+<text x="281" y="268" class="sans" font-size="15" fill="#64748B">→</text>
+<text x="304" y="268" class="sans" font-size="15" fill="#A78BFA">INSIGHTS</text>
+<text x="395" y="268" class="sans" font-size="15" fill="#64748B">→</text>
+<text x="418" y="268" class="sans" font-size="15" fill="#34D399">DECISIONS</text>
+
+<!-- Engine panel -->
+<rect x="526" y="104" width="612" height="326" rx="20" fill="#071018" fill-opacity=".84" stroke="#26384B"/>
+<text x="554" y="137" class="mono" font-size="12" fill="#64748B">CORE PROCESSOR</text>
+<text x="554" y="163" class="sans" font-size="20" font-weight="700" fill="white">DATA INTELLIGENCE ENGINE</text>
+
+<!-- Input cards -->
+<rect x="554" y="194" width="140" height="50" rx="10" fill="#0A1720" stroke="#155E75"/>
+<text x="574" y="216" class="mono" font-size="11" fill="#22D3EE">01 / INPUT</text>
+<text x="574" y="234" class="sans" font-size="14" font-weight="700" fill="#E2E8F0">CODE + DATA</text>
+
+<rect x="554" y="257" width="140" height="50" rx="10" fill="#0A1720" stroke="#155E75"/>
+<text x="574" y="279" class="mono" font-size="11" fill="#22D3EE">02 / CONTEXT</text>
+<text x="574" y="297" class="sans" font-size="14" font-weight="700" fill="#E2E8F0">IDEAS</text>
+
+<!-- Core -->
+<ellipse cx="824" cy="244" rx="88" ry="26" fill="#07131B" stroke="#22D3EE" stroke-width="2" filter="url(#glowCyan)"/>
+<path d="M736 244V342C736 356 775 368 824 368C873 368 912 356 912 342V244" fill="#07131B" stroke="#155E75"/>
+<ellipse cx="824" cy="342" rx="88" ry="26" fill="#081822" stroke="#22D3EE" stroke-width="2"/>
+<ellipse cx="824" cy="244" rx="58" ry="15" fill="#0B202A" stroke="#67E8F9"/>
+<text x="780" y="250" class="mono" font-size="15" font-weight="700" fill="#67E8F9">HP / HAE</text>
+<text x="766" y="292" class="mono" font-size="11" fill="#94A3B8">COLLECT</text>
+<text x="802" y="292" class="mono" font-size="11" fill="#22D3EE">→</text>
+<text x="818" y="292" class="mono" font-size="11" fill="#94A3B8">PROCESS</text>
+<text x="766" y="314" class="mono" font-size="11" fill="#94A3B8">ANALYZE</text>
+<text x="814" y="314" class="mono" font-size="11" fill="#22D3EE">→</text>
+<text x="832" y="314" class="mono" font-size="11" fill="#94A3B8">VISUALIZE</text>
+
+<!-- Input lines -->
+<path d="M694 219H735" stroke="#22D3EE" stroke-width="2" filter="url(#glowCyan)"/>
+<circle cx="694" cy="219" r="4" fill="#22D3EE"/>
+<path d="M694 282H735" stroke="#22D3EE" stroke-width="2" filter="url(#glowCyan)"/>
+<circle cx="694" cy="282" r="4" fill="#22D3EE"/>
+
+<!-- Output cards -->
+<rect x="954" y="194" width="152" height="50" rx="10" fill="#0E0C19" stroke="#6D28D9"/>
+<text x="974" y="216" class="mono" font-size="11" fill="#A78BFA">03 / OUTPUT</text>
+<text x="974" y="234" class="sans" font-size="14" font-weight="700" fill="#EDE9FE">ANALYSIS</text>
+
+<rect x="954" y="257" width="152" height="50" rx="10" fill="#0E0C19" stroke="#6D28D9"/>
+<text x="974" y="279" class="mono" font-size="11" fill="#A78BFA">04 / OUTPUT</text>
+<text x="974" y="297" class="sans" font-size="14" font-weight="700" fill="#EDE9FE">INSIGHTS</text>
+
+<rect x="954" y="320" width="152" height="50" rx="10" fill="#071812" stroke="#047857"/>
+<text x="974" y="342" class="mono" font-size="11" fill="#34D399">05 / OUTPUT</text>
+<text x="974" y="360" class="sans" font-size="14" font-weight="700" fill="#D1FAE5">DECISIONS</text>
+
+<!-- Output lines -->
+<path d="M912 244H954" stroke="#A78BFA" stroke-width="2" filter="url(#glowPurple)"/>
+<path d="M912 282H954" stroke="#A78BFA" stroke-width="2" filter="url(#glowPurple)"/>
+<path d="M912 342H954" stroke="#34D399" stroke-width="2" filter="url(#glowCyan)"/>
+
+<!-- Left philosophy -->
+<rect x="74" y="316" width="395" height="112" rx="16" fill="#071018" stroke="#1E3345"/>
+<text x="96" y="345" class="mono" font-size="11" fill="#64748B">DESIGN PRINCIPLE</text>
+<text x="96" y="373" class="sans" font-size="16" font-weight="700" fill="#F8FAFC">Turning messy data into</text>
+<text x="96" y="398" class="sans" font-size="16" font-weight="700" fill="#22D3EE">clear, useful decisions.</text>
+<text x="96" y="417" class="mono" font-size="10" fill="#64748B">SQL • POWER BI • EXCEL • PYTHON</text>
+
+<!-- Footer -->
+<line x1="48" y1="462" x2="1152" y2="462" stroke="#1E293B"/>
+<text x="48" y="484" class="mono" font-size="11" fill="#64748B">COLLECT  •  PROCESS  •  ANALYZE  •  VISUALIZE  •  IMPACT</text>
+<text x="954" y="484" class="mono" font-size="11" fill="#34D399">STATUS: READY</text>
+</svg>
